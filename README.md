@@ -1,11 +1,37 @@
-# Rubisco Sequence Analysis Project
+# Rubisco Metagenomics Mini-Project
 
-This project analyzes Rubisco large subunit protein sequences obtained from NCBI.
+## Overview
+This project investigates the diversity of Rubisco large subunit protein sequences obtained from public databases.
 
-## Steps performed:
-- Downloaded sequences from NCBI Protein database
-- Performed multiple sequence alignment using Clustal Omega
-- Generated alignment file for downstream phylogenetic analysis
+Rubisco is a key enzyme involved in carbon fixation and is widely distributed across bacteria, archaea, and eukaryotes.
 
-## Goal:
-Explore diversity in Rubisco sequences using basic bioinformatics tools.
+---
+
+## Workflow
+
+1. Retrieved Rubisco protein sequences from NCBI
+2. Performed multiple sequence alignment using Clustal Omega
+3. Constructed a phylogenetic tree using NGPhylogeny
+4. Visualized evolutionary relationships among sequences
+
+---
+
+## Results
+
+The phylogenetic tree suggests clear clustering of Rubisco sequences, reflecting evolutionary divergence across different environmental sources.
+
+---
+
+## Files
+
+- `data/` → raw FASTA sequences
+- `results/` → multiple sequence alignment
+- `figures/` → phylogenetic tree image
+
+---
+
+## Tools Used
+
+- NCBI Protein Database
+- Clustal Omega (EMBL-EBI)
+- NGPhylogeny
